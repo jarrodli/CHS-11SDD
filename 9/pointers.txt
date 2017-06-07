@@ -1,0 +1,28 @@
+Quiz
+
+1. &
+2. *
+3. A pointer is a type that has the memory address of a variable.
+4. Indirection is the ability to reference something using a name or reference of the container instead of the value iteself.
+5. Sequentially, one after the other.
+6. a. &data[0]
+   b. data
+7. NULL, \0
+8. assignment, indirection, comparison, imcrementation, decrementation, address-of
+9. differencing pointers returns the number of elem. in between: 1
+10. same: 1.
+
+Exercises
+
+1. char *char_ptr = &char;
+2. int *p_cost = &cost;
+3. a. cost = 300;
+   b. *p_cost = 300;
+4. the value of the pointer: printf("%d", *p_cost);
+   the value being pointed to: printf("%p", p_cost);
+5. float *ptr = &radius;
+6. a. data[2] = 100;
+   b. *data + 2 = 100;
+7. sumArrays.c
+8. testSumArrays.c
+9. addArraysB.c

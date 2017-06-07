@@ -1,0 +1,52 @@
+Quiz
+
+1. 127
+2. As a number
+3. An array of characters - each character is a number
+4. Literal strings are static therfore they have a defined set size, when changed
+   C invokes undefined behavoiour.
+5. NULL termintaing character
+6. Allocates set memory, it may not be on the stack and therefore should not be added to.
+7. a. 97
+   b. 65
+   c. 9
+   d. 32
+   e. 206
+   f. 5
+
+8. a. I
+   b. space
+   c. c
+   d. a
+   e. n
+   f. null
+   g. smiley
+
+9. a. 9 bytes
+   b. 9 bytes
+   c. 1 byte
+   d. 20 bytes
+   e. 20 bytes
+
+10. a. 'A'
+	b. A
+	c. \0
+	d. illegal
+	e. 73
+	f. memory address to the first element of the array
+
+Exercises
+
+1. char letter = '$';
+2. char str[17] = "Pointers are fun!";
+3. char *str = "Pointers are fun";
+4. 
+   int main(int argc, char *argv[]) {
+      char str[80];
+      scanf("%s", str);
+   }
+
+5. stringcpy.c
+6. longerString.c
+
+7. 
