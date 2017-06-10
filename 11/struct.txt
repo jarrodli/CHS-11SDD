@@ -1,0 +1,84 @@
+Quiz
+
+1. a struct can hold more than one different data type while an array only holds one data type
+
+2. the member operator allows the access of elements inside a struct
+
+3. struct
+
+4. A structure instance doesn't have a tag which can be typedefed
+
+5. creates a struct and and variable that assigns elements to the struct
+
+6. words myWord;
+
+7. ptr + 1;
+
+Exercies
+
+1. 
+
+struct _time {
+	int a;
+	int b;
+	int c;
+}
+
+2.
+
+struct _data {
+	int a;
+	double b;
+	double c;
+}
+
+struct _data info;
+
+3.
+
+info.a = 100;
+
+4.
+
+struct _data *ptr = &info;
+
+5. 
+
+ptr->b = 5.5;
+
+*(ptr.b) = 5.5;
+
+6.
+
+struct _data {
+	char str[20];
+}
+
+7 & 8.
+
+struct _record {
+	char *address1;
+	char *address2;
+	char *city;
+	char *state;
+	char *zip;
+} RECORD;
+
+9.
+
+should be:
+
+struct _zodiac{
+	char zodiac_sign[21];
+	int month;
+} sign = {"LEO", 8};
+
+10. 
+
+only one member of a union can be initalised at one time ::
+
+union _data {
+	char a_word[4];
+	long a_number;
+} generic_variable = {"WOW"};
+
